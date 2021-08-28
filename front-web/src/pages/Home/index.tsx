@@ -15,7 +15,7 @@ const Home = () =>(
                 </p>
                 <Formulario />
                 <Link to="/catalog" >
-                  <ButtonIcon text ="inicie agora sua busca" />
+                  <ButtonIcon text ="calcular" />
                 </Link>
             </div>
             <div className="col-6">

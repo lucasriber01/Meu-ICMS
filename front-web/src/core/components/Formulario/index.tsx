@@ -1,3 +1,4 @@
+import './styles.scss';
 
 const Formulario = ()=>(
 
@@ -21,10 +22,29 @@ const Formulario = ()=>(
     </select>
 
     <div className="form-group">
-  <label htmlFor="exampleFormControlInput1">Email address</label>
+  <label htmlFor="exampleFormControlInput1">Valor do Produto</label>
   <input className="form-control" />
 </div>
 
+<div className="form-group">
+  <label htmlFor="exampleFormControlInput1">Valor do Frete</label>
+  <input className="form-control" />
+</div>
+
+<div className="form-group">
+  <label htmlFor="exampleFormControlInput1">Aliquota IPI</label>
+  <input className="form-control" />
+</div>
+
+<div className="form-group">
+  <label htmlFor="exampleFormControlInput1">Aliquota MVA</label>
+  <input className="form-control" />
+
+  <div className="form-group">
+  <label htmlFor="exampleFormControlInput1">Aliquota interna </label>
+  <input className="form-control" />
+</div>
+</div>
   </div>
   
 

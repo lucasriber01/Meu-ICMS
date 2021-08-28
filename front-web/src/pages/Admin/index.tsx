@@ -1,7 +1,10 @@
+import Card from "../../core/components/Card";
 
 const Admin = () =>(
     <div>
-        <h1>Admin</h1>
+        <h1>Histórico de Calculos</h1>
+
+        <Card text="Cerveja"/>
     </div>
 
 );
